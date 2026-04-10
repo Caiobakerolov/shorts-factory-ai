@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorts Factory - AI Video Editor for 19 Languages</title>
+    <meta name="description" content="AI-powered short video creation platform supporting 19 languages.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; }
+        .hero { text-align: center; padding: 80px 20px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); }
+        .hero h1 { font-size: 2.5em; margin-bottom: 20px; background: linear-gradient(90deg, #e94560, #533483); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 1.2em; max-width: 700px; margin: 0 auto 30px; color: #b0b0b0; }
+        .cta-btn { display: inline-block; padding: 15px 40px; background: linear-gradient(90deg, #e94560, #533483); color: white; text-decoration: none; border-radius: 8px; font-size: 1.1em; font-weight: bold; }
+        .features { max-width: 1000px; margin: 0 auto; padding: 60px 20px; }
+        .features h2 { text-align: center; font-size: 2em; margin-bottom: 40px; color: #e94560; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .card { background: #1a1a2e; padding: 30px; border-radius: 12px; border: 1px solid #2a2a4e; }
+        .card h3 { color: #e94560; margin-bottom: 10px; }
+        .langs { text-align: center; padding: 60px 20px; background: #1a1a2e; }
+        .langs h2 { font-size: 2em; margin-bottom: 20px; color: #e94560; }
+        .tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 800px; margin: 0 auto; }
+        .tag { background: #2a2a4e; padding: 8px 16px; border-radius: 20px; font-size: 0.9em; }
+        footer { text-align: center; padding: 40px 20px; border-top: 1px solid #2a2a4e; color: #666; }
+        footer a { color: #e94560; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Shorts Factory</h1>
+        <p>AI-powered short video creation from long-form content. Upload once, get perfectly edited shorts in 19 languages.</p>
+        <a href="https://shortsfactory.app" class="cta-btn">Try Shorts Factory Free</a>
+    </div>
+    <div class="features">
+        <h2>Core Features</h2>
+        <div class="grid">
+            <div class="card"><h3>AI Transcription</h3><p>Whisper large-v3 with GPT-4 post-processing for 19 languages including Vietnamese, Thai, and Arabic.</p></div>
+            <div class="card"><h3>Highlight Detection</h3><p>GPT-4 finds the most engaging moments from hours of footage automatically.</p></div>
+            <div class="card"><h3>Smart Face Tracking</h3><p>MediaPipe + Kalman filter auto-crops 16:9 to 9:16 keeping speakers centered.</p></div>
+            <div class="card"><h3>Animated Subtitles</h3><p>Word-level synced animated subtitles for TikTok and Reels engagement.</p></div>
+            <div class="card"><h3>Voice Cloning</h3><p>Clone voices and dub in 19 languages maintaining original tone and style.</p></div>
+            <div class="card"><h3>10GB Uploads</h3><p>Chunked resumable uploads for podcasts, lectures, streams, and webinars.</p></div>
+        </div>
+    </div>
+    <div class="langs">
+        <h2>19 Supported Languages</h2>
+        <div class="tags">
+            <span class="tag">English</span><span class="tag">Portuguese</span><span class="tag">Spanish</span>
+            <span class="tag">French</span><span class="tag">German</span><span class="tag">Italian</span>
+            <span class="tag">Japanese</span><span class="tag">Korean</span><span class="tag">Chinese</span>
+            <span class="tag">Arabic</span><span class="tag">Turkish</span><span class="tag">Vietnamese</span>
+            <span class="tag">Hindi</span><span class="tag">Thai</span><span class="tag">Indonesian</span>
+            <span class="tag">Russian</span><span class="tag">Polish</span><span class="tag">Dutch</span>
+            <span class="tag">Swedish</span>
+        </div>
+    </div>
+    <footer>
+        <p>Built by <a href="https://shortsfactory.app">Shorts Factory</a> | <a href="https://shortsfactory.app">shortsfactory.app</a></p>
+    </footer>
+</body>
+</html>
